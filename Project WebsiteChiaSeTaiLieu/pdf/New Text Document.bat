@@ -1,0 +1,1 @@
+for %%I in (tieu_luan_kinh_doanh_chung_khoan_in_0804.pdf) do "C:\Program Files\gs\gs9.52\bin\gswin64c.exe" -dSAFER -dNOPAUSE -dBATCH -sDEVICE#jpeg -r20 -sOutputFile#"%%~nI.jpg" -dFirstPage#1 -dLastPage#1 "%%I"
